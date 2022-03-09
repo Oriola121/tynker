@@ -1,0 +1,39 @@
+.foot {
+  height: 75px;
+  width: 100%;
+  background-color: #353e5c;
+  display: flex;
+  justify-content: center;
+}
+.footwrap {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.h_text{
+  color: white;
+  font-size: 16px;
+}
+.but9{
+  background-color: #00BCD4;
+  height:45px;
+  width:210px;
+  border-radius: 8px;
+  color: white;
+  border-color: transparent;
+}
+.new {
+  height: 50px;
+  margin-left: -280px;
+  margin-top: -20px;
+} 
+.footext {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+}
+.tutor {
+  margin-left: 120px;
+}

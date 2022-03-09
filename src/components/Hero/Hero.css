@@ -1,0 +1,111 @@
+.hero {
+	width: 100%;
+	height: 800px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	box-sizing: inherit;
+}
+.herolayer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 95%;
+	margin-left: 20px;
+	margin-top: 180px;
+}
+.codplat {
+	font-size: 30px;
+	margin-top: 10px;
+}
+.nostar {
+  height: 50px;
+  width: 180px;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #FF8D1A;
+  border-color: transparent;
+  border-radius: 10px;
+  color: white;
+  margin-top: 15px;
+}
+.girl {
+	height: 320px;
+	margin-top: -50px;
+}
+.herotext {
+	margin-top: -110px;
+	margin-left: 20px;
+}
+.p2, .p3, .p4 {
+	font-size: 18px;
+	margin-top: 12px;
+}
+.lglink {
+	text-decoration: none;
+}
+.hs2 {
+	text-align: left;
+}
+.byjus {
+	height: 80px;
+}
+.herotext2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: -5px;
+	width: 90%;
+	margin-top: 60px;
+}
+.heromg {
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+}
+.hertext {
+	display: flex;
+	flex-direction: column;
+}
+.hertext2 {
+	display: flex;
+	flex-direction: column;
+}
+.hertext3 {
+	display: flex;
+	flex-direction: column;
+}
+.hermg {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	width: 30%;
+	margin-top: 20px;
+}
+.hermg2 {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	width: 30%;
+	margin-top: 20px;
+}
+.hermg3 {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	width: 30%;
+	margin-top: 20px;
+}
+.hs3 {
+	margin-top: -5px;
+	margin-left: 5px;
+}
+.p5 {
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.more {
+	text-decoration: none;
+	margin-top: 6px;
+	margin-left: 3px;
+}

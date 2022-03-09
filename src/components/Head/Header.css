@@ -1,0 +1,94 @@
+.head {
+  width: 100%;
+  height: 600px;
+  background: url(background.jpg);
+}
+.headwrap {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.tynkerlogo {
+  height: 25px;
+}
+.but {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+.b1 {
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  border-color: transparent;
+  margin: 10px,0,10px,0;
+}
+.b2 {
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  border-color: whitesmoke;
+  margin-left: 10px;
+}
+.b3 {
+  width: 70px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  border-color: transparent;
+  margin: 10px,0,10px,0;
+}
+.b2:hover {
+  background-color: lightgreen;
+}
+.b3:hover {
+  background-color: lightgreen;
+}
+.headcont {
+  display: flex;
+  justify-content: space-around;
+}
+.tynker {
+  height: 450px;
+  margin-right: -120px;
+  margin-top: 4.3rem;
+  border-bottom-style: curve;
+}
+.headtext {
+  margin-left: -30px;
+  margin-top: 40;
+}
+.hs1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+.b4 {
+  height: 50px;
+  width: 220px;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #FF8D1A;
+  border-color: transparent;
+  border-radius: 10px;
+  color: white;
+}
+.funway {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 30px;
+}
+.prlink >a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.price {
+  text-decoration: underline;
+}
