@@ -1,6 +1,7 @@
 import React from 'react'
 import Tynker from './tynker.jpg'
 import Tynkerlogo from './tynkerlogo.png'
+import Swoosh from './swooshrev.svg'
 import './Header.css'
 
 function Header () {
@@ -34,6 +35,10 @@ function Header () {
             </p>
             </div>
             <img src={Tynker} className='tynker'/>
+            </div>
+
+            <div>
+            <img src={Swoosh} className='swooshrev'/>
             </div>
         </div>
     )

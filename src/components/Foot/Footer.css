@@ -4,6 +4,8 @@
   background-color: #353e5c;
   display: flex;
   justify-content: center;
+  position: fixed;
+  bottom: 0;
 }
 .footwrap {
   width: 90%;

@@ -29,11 +29,15 @@ import comma from './comma.svg'
 import boy from './boy.png'
 import valeries from './valeries.png'
 import madam from './madam.png'
+import Bgsquig from './bgsquig.svg'
 
 
 function Mapside (){
 	return (
 		<div className='maplay'>
+		<div>
+		<img src={Bgsquig} className='bgsquig'/>
+		</div>
 		<div className='maptop'>
 		<div className='uptext'>
 		<h1 className='hls'>Why Should Kids Learn to Code with Tynker?</h1>
@@ -143,31 +147,32 @@ function Mapside (){
         <div className="wrapper_container">
           <div className="card_wrapper">
             <div className="card1">
-              <p><img src={comma} className="comma" /><i>I thought a game was<br/>
-               going to be extremely <br/>hard to make,but <br/> Tynker made it really easy.</i></p>
-              <div className="writeupix">
-                <p className="p_f"><b>Tynker Featured<br /> Maker</b></p>
-                <img src={boy} className="madam_pix" />
+              <p className='pro1'><img src={comma} className="comma" /><i>I thought a game was<br/> going
+               to be extremely<br/> hard to make, but<br/>
+                Tynker made it really<br/> easy.</i></p>
+              <div className="writeupix1">
+                <p className="p_f1"><b>Tynker Featured<br /> Maker</b></p>
+                <img src={boy} className="madam_pix1" />
               </div>
             </div>
 
             <div className="card2">
-              <p ><img src={comma} className="comma" /><i>There's so much opportunity once<br/>
-               they understand how coding works.<br/>
-                It's amazing to see them create<br/>
-                 incredible things themselves.</i></p>
-              <div className="writeupix">
-                <p className="p_f"><b>Charlotte R.</b><br />Parent | Melbourne,<br /> Australia</p>
-                <img src={madam} className="madam_pix" />
+              <p className='pro2'><img src={comma} className="comma" /><i>There's so much <br/>opportunity once
+               they <br/>understand how coding<br/> works.
+                It's amazing to <br/>see them create<br/>
+                 incredible things<br/> themselves.</i></p>
+              <div className="writeupix2">
+                <p className="p_f2"><b>Charlotte R.</b><br />Parent | Melbourne,<br /> Australia</p>
+                <img src={madam} className="madam_pix2" />
               </div>
             </div>
 
             <div className="card3">
-              <p><img src={comma} className="comma" /><i>Tynker has made programming fun,<br/>
-               exciting, and simple and will help lead<br/> kids into their future.</i></p>
-              <div className="writeupix">
-                <p className="p_f"><b>Valerie S.</b><br />5th Grade Teacher | California, US</p>
-                <img src={valeries} className="madam_pix" />
+              <p className='pro3'><img src={comma} className="comma" /><i>Tynker has made<br/> programming fun,<br/>
+               exciting, and simple and<br/>  will help lead kids into<br/> their future.</i></p>
+              <div className="writeupix3">
+                <p className="p_f3"><b>Valerie S.</b><br />5th Grade Teacher | California, US</p>
+                <img src={valeries} className="madam_pix3" />
               </div>
             </div>
           </div>

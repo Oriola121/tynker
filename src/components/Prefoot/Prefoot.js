@@ -82,7 +82,8 @@ function App(){
                       <p>About Us</p> |
                       <p>Contact Us</p>
                     </div>
-                    
+                    <div className='empty'>
+                    </div>
                     </div>
                   </div>
                 </div>

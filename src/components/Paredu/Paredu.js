@@ -2,11 +2,16 @@ import React from 'react'
 import './Paredu.css'
 import Kids from './kids.jpg'
 import Test from './test.jpg'
+import Squiggle from './squiggle.svg'
+import Squigglebot from './squigglebot.svg'
 
 
 function Paredu () {
 	return (
 		<div className='paredu'>
+		<div>
+		<img src={Squiggle} className='squiggle'/>
+		</div>
 		<div className='parlet'>
 		 <div className='partop'>
 			<img src={Kids} className='kids'/>
@@ -37,6 +42,9 @@ function Paredu () {
 			  and many great coding resources.</p>
 			<button className='read'>LEARN MORE</button></div>
 		 </div>
+		 </div>
+		 <div>
+		 <img src={Squigglebot} className='squigglebot'/>
 		 </div>
 		</div>
 	)
