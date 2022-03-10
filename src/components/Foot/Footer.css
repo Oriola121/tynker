@@ -28,7 +28,9 @@
 .new {
   height: 50px;
   margin-left: -280px;
-  margin-top: -20px;
+  margin-top: -23px;
+  -webkit-filter: invert(90%);
+  filter: invert(18%);
 } 
 .footext {
   display: flex;
